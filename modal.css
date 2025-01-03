@@ -1,0 +1,94 @@
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#modal-container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    margin:8.5vw auto;
+    gap: 5px;
+    width: 80%;
+    height:60%;
+    padding:40px 10px;
+    /* height: 55%;  */
+      background-image: linear-gradient(to bottom right,blue,purple);
+/*    background: purple;*/
+    border-radius: 20px;
+      border: 5px solid yellow;
+}
+.modal-title{
+
+  grid-column: 1 / span 4;
+  text-align: center;
+}
+.span1-2{
+mpadding-top: 20px;
+  grid-column: 1 / span 2;
+}
+.span3-2{
+margin-top: 60px;
+  grid-column: 3 / span 2;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-item{
+    height: 17vh;
+    width:18vw;
+    font-weight:bold;
+    font-size:3vw;
+    text-align:center;
+    align-items: center;
+    color:white;
+    background: darkblue;
+    border-width: 5px;
+    border-color: yellow;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+img{
+/*    display: inline;*/
+    height: 12vw;
+    width:18vw;
+    border-radius: 10px;
+}
+.alert{
+        background-color: rgba(255,255,255,0.0);
+        color:yellow;
+        font-size:2.5vw;
+
+        }
+select{
+  background: powderblue;
+  color:brown;
+  font-size:2vw;
+  border-width: 2px;
+  border-color: yellow;
+  border-radius: 10px;
+  padding: 5px;
+  width:80%;
+        }
